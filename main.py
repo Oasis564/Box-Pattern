@@ -18,3 +18,12 @@ radius = float(input("What is the radius of the circle?"))
 
 c1(diameter)
 c2(radius)
+
+def pr(length, width):
+    result = 2(length + width)
+    print("The perimeter of the rectangle was, ", round(result, 2))
+
+length = float(input("What is the length of the rectangle?"))
+width = float(input("What is the width/breadth of the rectangle?"))
+
+pr(length, width)
